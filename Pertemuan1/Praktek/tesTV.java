@@ -34,11 +34,13 @@ public class tesTV {
 class TV {
     int channel = 1;
     int volumeLevel = 1;
+    boolean on = False;
+    
     void turnOn(){
-        System.out.println("TV on");
+        on = True;
     }
     void turnOff() {
-        System.out.println("TV Off");
+        off = False;
     }
     void setChannel(int newChannel) {
         channel = newChannel;
