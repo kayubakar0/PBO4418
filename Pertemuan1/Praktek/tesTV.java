@@ -34,13 +34,10 @@ public class tesTV {
 class TV {
     int channel = 1;
     int volumeLevel = 1;
-    boolean on = False;
+    boolean on = false;
     
     void turnOn(){
-        on = True;
-    }
-    void turnOff() {
-        off = False;
+        on = true;
     }
     void setChannel(int newChannel) {
         channel = newChannel;
