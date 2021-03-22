@@ -7,7 +7,7 @@ package gameenviroment;
 
 /**
  *
- * @author adria
+ * @author adrian
  */
 public class GameEnviroment {
 
