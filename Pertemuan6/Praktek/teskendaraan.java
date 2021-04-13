@@ -1,4 +1,7 @@
 public class teskendaraan {
+    public static void kendaraanmelaju(venicle venicle){
+        venicle.goStraight();
+    }
     public static void main(String[] args) throws Exception {
         venicle kendaraan1 = new venicle();
         bicycle sepeda = new bicycle();
@@ -13,10 +16,10 @@ public class teskendaraan {
         motor.getSizeofEngine();
         toyota.goStraight();
         toyota.setSeatbelt(1);
-        System.out.println(toyota.getseatbelt());
+        System.out.println("setbealt = "+toyota.getseatbelt());
         honda.goStraight();
         honda.setgearfoot(5);
-        System.out.println(honda.getgearfoot());
+        System.out.println("numgear = "+honda.getgearfoot());
         
     }
 }

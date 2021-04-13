@@ -1,6 +1,9 @@
 public class motorcycle extends motorvenicle{
     int numgear = 0;
-    motorcycle(){}
+
+    motorcycle(){
+        
+    }
     void setgearfoot(int numgear){
         this.numgear = numgear;
     }
