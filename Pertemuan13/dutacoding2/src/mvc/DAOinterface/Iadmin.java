@@ -10,7 +10,7 @@ import mvc.model.admin;
  *
  * @author adria
  */
-public class Iadmin {
+public interface Iadmin {
     public void insert(admin u);
     public void update(admin u);
     public void delete(String identitas);
